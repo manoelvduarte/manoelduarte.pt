@@ -4,7 +4,7 @@ import { Zap, ShieldCheck, Globe, MessageCircle, CheckCircle2, Sparkles, Clock }
 export default function MarqueeTicker() {
   const items = [
     { icon: Clock, label: 'ENTREGA EM 5 A 7 DIAS ÚTEIS' },
-    { icon: Globe, label: 'CASOS REAIS EM PRODUÇÃO (FOROAI, EDITALRADAR, MELLIE)' },
+    { icon: Globe, label: 'CASOS REAIS NO AR (CONSTRUMOURA, FRIZON, FOROAI, MELLIE)' },
     { icon: ShieldCheck, label: 'AUDITADO EM 6 VIEWPORTS & ZERO OVERFLOW' },
     { icon: MessageCircle, label: 'LEADS DIRETAS NO WHATSAPP DO CLIENTE' },
     { icon: Zap, label: 'CARREGAMENTO ULTRA RÁPIDO (< 1.2S)' },

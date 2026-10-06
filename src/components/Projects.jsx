@@ -97,6 +97,42 @@ export default function Projects() {
       badge: 'WordPress Editorial',
     },
     {
+      id: 'construmoura',
+      name: 'Construmoura Construtora',
+      client: 'Construmoura Construtora',
+      category: 'Construção Civil & Imobiliário',
+      type: 'LP',
+      status: 'PRODUÇÃO · ONLINE',
+      statusColor: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30',
+      liveUrl: 'https://construmoura.com.br',
+      hasLiveUrl: true,
+      image: '/assets/projects/construmoura.webp',
+      description: 'Portal institucional e catálogo digital de empreendimentos imobiliários de alto padrão no litoral paulista.',
+      problem: 'Apresentar com clareza e autoridade um portfólio robusto de lançamentos e apartamentos prontos (Mongaguá, Praia Grande, Itanhaém e Guarujá), facilitando a captação de compradores e investidores.',
+      approach: 'Arquitetura com foco em localização privilegiada frente ao mar, filtros dinâmicos de status de obra e percursos rápidos de conversão direta para a equipa de vendas via WhatsApp.',
+      technologies: ['Portal Imobiliário', 'Catálogo de Empreendimentos', 'Filtro de Lançamentos', 'WhatsApp Comercial'],
+      metrics: 'Catálogo ativo de múltiplos empreendimentos frente ao mar com captação comercial contínua.',
+      badge: 'Empreendimentos & Litoral',
+    },
+    {
+      id: 'frizon',
+      name: 'Frizon Construtora',
+      client: 'Frizon Construtora',
+      category: 'Engenharia & Empreendimentos',
+      type: 'LP',
+      status: 'PRODUÇÃO · ONLINE',
+      statusColor: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30',
+      liveUrl: 'https://www.frizonconstrutora.com.br',
+      hasLiveUrl: true,
+      image: '/assets/projects/frizon.webp',
+      description: 'Presença digital institucional e vitrine de lançamentos residenciais de praia com ligação à equipa de corretores.',
+      problem: 'Conectar clientes que procuram qualidade de vida e investimento no litoral à construtora, transmitindo solidez de engenharia e facilidade de atendimento.',
+      approach: 'Design limpo com destaque para plantas, áreas de lazer completas, localização estratégica e integração fluida com a equipa de corretores credenciados.',
+      technologies: ['Design Imobiliário', 'Showcase de Lançamentos', 'Plantas & Lazer', 'Atendimento de Corretores'],
+      metrics: 'Vitrine digital de lançamentos com alta taxa de engajamento e encaminhamento direto de interessados.',
+      badge: 'Empreendimentos de Praia',
+    },
+    {
       id: 'equilibrium',
       name: 'Equilibrium App',
       client: 'Equilibrium Finanças',
@@ -163,7 +199,7 @@ export default function Projects() {
                     : 'bg-steel-border/40 text-steel-text hover:text-white border border-steel-border'
                 }`}
               >
-                Landing Pages & Portais
+                Landing Pages & Imobiliário
               </button>
               <button
                 onClick={() => setSelectedFilter('SAAS')}
