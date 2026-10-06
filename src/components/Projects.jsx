@@ -227,8 +227,8 @@ export default function Projects() {
 
               <div>
                 {/* Linha de Categoria & Status */}
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-2">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-3 mb-4">
+                  <div className="flex flex-wrap items-center gap-x-2 gap-y-1 min-w-0">
                     <span className="font-mono text-xs text-electric-lime uppercase tracking-wider font-semibold">
                       {proj.category}
                     </span>
@@ -238,9 +238,11 @@ export default function Projects() {
                     </span>
                   </div>
 
-                  <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold tracking-wider border ${proj.statusColor}`}>
-                    {proj.status}
-                  </span>
+                  <div className="self-start sm:self-auto shrink-0">
+                    <span className={`inline-flex px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-wider border whitespace-nowrap ${proj.statusColor}`}>
+                      {proj.status}
+                    </span>
+                  </div>
                 </div>
 
                 {/* Título & Descrição */}
